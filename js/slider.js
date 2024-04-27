@@ -13,12 +13,12 @@
     });
     
     const changePosition = (add)=>{
-        const currentNews = document.querySelector('.news_body--show').dataset.id;
+        const currentnews = document.querySelector('.news_body--show').dataset.id;
         value = Number(currentNews);
         value+= add;
 
 
-        sliders[Number(currentNews)-1].classList.remove('news_body--show');
+        sliders[Number(currentnews)-1].classList.remove('news_body--show');
         if(value === sliders.length+1 || value === 0){
             value = value === 0 ? sliders.length  : 1;
         }
