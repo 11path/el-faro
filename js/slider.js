@@ -13,7 +13,7 @@
     });
     
     const changePosition = (add)=>{
-        const currentnews = document.querySelector('.news_body--show').dataset.id;
+        const currentNews = document.querySelector('.news_body--show').dataset.id;
         value = Number(currentNews);
         value+= add;
 
@@ -24,7 +24,7 @@
         }
 
         sliders[value-1].classList.add('news_body--show');
-        console.log(value)
+        
     } 
       
 })();
