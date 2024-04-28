@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($registro_exitoso) {
         // Redireccionar a la página de agradecimiento después de 2 segundos
         /*entre las comillas despues de url=va la direccion de la pagina de agradecimiento*/
-        header("refresh:2;url=");
+        header("refresh:2;url=https://11path.github.io/universidad/");
         exit();
     }
 }

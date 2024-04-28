@@ -163,7 +163,7 @@ font-size:  3rem;
 
 .knowledge_container{
     display: block;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr 1fr;
     gap: 1em;
     align-items: center;
 }
