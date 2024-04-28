@@ -24,7 +24,8 @@
         }
 
         sliders[value-1].classList.add('news_body--show');
-        
+        console.log(value)
     } 
       
 })();
+/*quede en el 1:33:31 del video*/
