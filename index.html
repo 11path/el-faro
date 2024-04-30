@@ -190,7 +190,8 @@
             <nav class="nav nav--footer">
 
                 <h2 class="footer__title">el faro tu diario online</h2>
-                <form class="footer__form"  action="form.php" method="post">
+                <?php if (!$registro_exitoso):>
+                <form class="footer__form"  action="form.php/form.php" method="post">
                     <h2 class="footer__newsletter">elige tu plan</h2>
                     <div class="footer__inputs">
                         <input type="text" placeholder="Nombre" class="footer__input" name="nombre" required><br><br>
@@ -203,6 +204,7 @@
                         <input type="submit" value="Registrarse" class="footer__submit">
                     </div>
                 </form>
+                <?php endif; ?>
                 <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
                     <h2 class="footer__newsletter">Suscribete a la newsletter</h2>
                     <div class="footer__inputs">
@@ -238,6 +240,6 @@
     </footer>
 
     <script src="./js/slider.js"></script>
-    <script src="./js/agradecimiento.js"></script>
+    
 </body>
 </html>
