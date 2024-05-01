@@ -54,10 +54,10 @@ body {
 .nav_link{
     margin-left: auto;
     padding: 0;
-    display: grid;
+    display:grid;
     grid-auto-flow: column;
     grid-auto-columns: max-content;
-    gap: 2em;
+    gap: 1em;
 
 }
 .nav_items{
@@ -344,8 +344,8 @@ font-size:  3rem;
 }
 
 .nav__link--footer{
-    display: flex;
-    margin: 0;
+    display: grid;
+    margin: left;
     margin-right: 20px;
     flex-wrap: wrap;
 }
