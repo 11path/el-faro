@@ -148,7 +148,7 @@
                       <p class="price__features">correos</p>
                     </div>
 
-                    <a href="#footer" class="price__cta">Elige tu Plan</a>
+                    <a href="#footer" class="price__cta">Registrate</a>
                 </div>
 
 
@@ -162,7 +162,7 @@
                       <p class="price__features">podcast</p>
                     </div>
 
-                    <a href="#footer" class="price__cta">Elige tu Plan</a>
+                    <a href="#footer" class="price__cta">Registrate</a>
                 </div>
 
 
@@ -176,7 +176,7 @@
                        <p class="price__features">podcast y descargas</p>
                     </div>
 
-                    <a href="#footer" class="price__cta">Elige tu Plan</a>
+                    <a href="#footer" class="price__cta">Registrate</a>
                 </div>
 
 
@@ -190,21 +190,14 @@
             <nav class="nav nav--footer">
 
                 <h2 class="footer__title">el faro tu diario online</h2>
-                <?php if (!$registro_exitoso):>
-                <form class="footer__form"  action="form.php/formulario.php" method="post">
-                    <h2 class="footer__newsletter">elige tu plan</h2>
-                    <div class="footer__inputs">
-                        <input type="text" placeholder="Nombre" class="footer__input" name="nombre" required><br><br>
-                        <input type="email" placeholder="Email" class="footer__input" name="email" required><br><br>
-                        <select id="plan" name="plan" class="footer__input" required>
-                            <option value="FREE">FREE</option>
-                            <option value="BASICO">BASICO</option>
-                            <option value="PREMIUM">PREMIUM</option>
-                        </select><br><br>
-                        <input type="submit" value="Registrarse" class="footer__submit">
-                    </div>
-                </form>
-                <?php endif; ?>
+                
+                   <form class="footer__form"  action="./contacto.php" method="post">
+                      <h2 class="footer__newsletter">Registrate</h2>
+                            </select><br><br>
+                            <input type="submit" value="Registrarse" class="footer__submit">
+                        </div>
+                   </form>
+                
                 <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
                     <h2 class="footer__newsletter">Suscribete a la newsletter</h2>
                     <div class="footer__inputs">
